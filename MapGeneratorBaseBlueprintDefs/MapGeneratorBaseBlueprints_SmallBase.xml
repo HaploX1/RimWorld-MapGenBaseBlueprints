@@ -92,6 +92,39 @@
 			</li>
 		</rotationLegend>
 
+		<nonbuildingData>
+			wwwwwwwwwwwww..wwwwwwww
+			w..q........w..w.h...hw
+			wt.q........aaaa......w
+			wss.........w..w......w
+			w...........w..w......w
+			w.....wwwdwww..www...hw
+			w.....w..........w....w
+			w.....w..........d...hw
+			wwwwwww..........w....w
+			.................w...hw
+			.................w....w
+			.................wwwwdw
+			...................w..w
+			wwwwwww....wwwwwww.wwww
+			wb..b.w....w.c..cw.....
+			w.....d....d.....w.....
+			wb..b.w....w.c..cw.....
+			wwwwwww....wwwwwww.....
+			.......................
+			wwwwwww....wwwwwww.....
+			wb..b.w....w.c..cw.....
+			w.....d....d.....w.....
+			wb..b.w....w.c..cw.....
+			wwwwwww....wwwwwww.....
+		</nonbuildingData>
+		<nonbuildingLegend>
+			<li>
+				<key>a</key>
+				<value>PowerConduit</value>
+			</li>
+		</nonbuildingLegend>
+
 		<floorData>
 			yyyyyyyyyyyyy..yyyyyyyy
 			yyyyyyyyyyyyy..yyyyyyyy

@@ -39,6 +39,22 @@
 			</li>
 		</rotationLegend>
 		
+		<!-- Optional: for things like power cables -->
+		<nonbuildingData>   <!-- Here is the blueprint, where you define the layout for non-building stuff like power conduits -->
+			.wwwpwww.
+			w...p...w
+			w...p...w
+			ww.wpwwww
+			w...p...w
+			w...p...w
+			.wwwpwww.
+		</nonbuildingData>
+		<nonbuildingLegend>
+			<li>
+				<key>p</key>  <!-- The key corresponds to the letter/number in the blueprint. Allowed are all lowercase letters, numbers and '.' '#' '+' '-' nothing else!    -->
+				<value>PowerConduit</value> <!-- For the buildings this represents a ThingDef. Look into the Core to find the def you want to use -->
+			</li>
+		</nonbuildingLegend>
 		
 		<!-- Here starts the FLOOR layer. Everything here defines the flooring -->
 		<floorData>  <!-- Note how I use the layer of the BUILDING and only change what I need? Not defined in the legend means that cell will not be changed (Exception: If it isn't defined and a wall is placed there, the floor will represent the stuff of the wall) -->

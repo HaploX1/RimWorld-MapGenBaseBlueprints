@@ -1,0 +1,37 @@
+#########################################################
+This is a short description about 
+how to convert a Blueprint from Fluffy's Blueprint mod 
+into a Miscellaneous MapGeneratorFactionBase Blueprint
+#########################################################
+
+Note: 
+This is Windows only, as I have no knowledge about Linux or MacOS.
+If you want to have it for these, use the supplied source code to compile it to your system.     
+
+---------
+You need:
+---------
+- Fluffy's Blueprint mod (from Steam or from here: https://ludeon.com/forums/index.php?topic=16120.0)
+- The Blueprint2MapGenConverter (provided in subfolder)
+
+--------------
+How to use it:
+--------------
+- Create your Base in RimWorld (with dev mode) and save it with the Blueprint mod. Export the blueprint!
+- Open Blueprint2MapGenConverter. It will automatically try to set your path -> Savegame-folder -> Blueprints folder
+- Press 'Select File' and navigate to the exported blueprint file.
+- Press 'Convert File'. Now it will convert the data from the blueprint file into the format needed for the MapGeneratorFactionBase blueprints.
+  The converted file gets the Prefix 'MapGenerator_'
+- Pressing 'Open Folder' will open the Explorer to the folder with the created file.
+- Now you have a file where the Buildings and Floors are already set. You just have to change the Name, devName and createdBy and it is usable.
+- You should now at least fill out the itemData / itemLegend section or the blueprint doesn't have any items (Not doable via Fluffy's Blueprint).
+
+- Finally upload your finished blueprint to the GitHub-Repository, or post it in the Miscellaneous page on the forum:
+
+GitHub:
+https://github.com/HaploX1/RimWorld-MapGenBaseBlueprints
+
+Forum:
+https://ludeon.com/forums/index.php?topic=3612.0
+ 
+

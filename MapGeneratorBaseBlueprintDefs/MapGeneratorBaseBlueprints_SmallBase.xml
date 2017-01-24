@@ -237,7 +237,7 @@
 
 	<MapGenerator.MapGeneratorBaseBlueprintDef ParentName="MiniBase2Base">
 		<defName>MiniBase3_wo_holes_w_mercenary</defName>
-		<chance>20</chance>
+		<chance>10</chance>
 		<canHaveHoles>false</canHaveHoles>
 		<createTrigger>true</createTrigger>
 		<pawnData>
@@ -272,7 +272,7 @@
 				<value>MercenarySniper</value>
 			</li>
 		</pawnLegend>
-		<pawnSpawnChance>30</pawnSpawnChance>
+		<pawnSpawnChance>40</pawnSpawnChance>
 	</MapGenerator.MapGeneratorBaseBlueprintDef>
 
 

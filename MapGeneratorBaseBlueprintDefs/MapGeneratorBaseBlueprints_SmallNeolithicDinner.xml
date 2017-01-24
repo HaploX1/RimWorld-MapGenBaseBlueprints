@@ -4,6 +4,7 @@
 		<defName>SmallNeolithicDinnerBase</defName>
 		<createdBy>Amuzet</createdBy>
 		<techLevelRequired>Neolithic</techLevelRequired>
+		<techLevelMax>Neolithic</techLevelMax>
 		<chance>10</chance>
 		<size>18,17</size>
 		<canHaveHoles>false</canHaveHoles>

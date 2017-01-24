@@ -7,6 +7,7 @@
 		<defName>TutorialName</defName> <!-- This name needs to be unique -->
 		<createdBy>Haplo</createdBy> <!-- your name -->
 		<techLevelRequired>Neolithic</techLevelRequired> <!-- This defines which tech level the faction must at least have to use this blueprint -->
+		<techLevelMax>Neolithic</techLevelMax><!-- (optional) This defines which tech level the faction must have as a maximum to use this blueprint -->
 		<chance>10</chance> <!-- This is the weighted chance for this blueprint to be selected -->
 		<size>9,7</size>  <!-- The size must be the size of the blueprint in all xxxxxData. e.g. in buildingData, ... - First number is the horizontal pane, second number the vertical pane  -->
 		<canHaveHoles>false</canHaveHoles> <!-- Define if randomly some spaces aren't set, though creating holes. Set to 'false' if you use pawns! -->

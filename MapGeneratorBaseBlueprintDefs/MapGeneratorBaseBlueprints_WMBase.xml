@@ -4,7 +4,8 @@
 		<defName>WMBase1_A</defName>
 		<createdBy>WM</createdBy>
 		<techLevelRequired>Industrial</techLevelRequired>
-		<chance>30</chance>
+		<techLevelMax>Industrial</techLevelMax>
+		<chance>10</chance>
 		<size>(50, 42)</size>
 		<canHaveHoles>false</canHaveHoles>
 		<createTrigger>true</createTrigger>
@@ -371,36 +372,36 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 		st.i...w........i................i........w...i.ts
 		swi....wwwwwdwwww................wwwwdwwwww....iws
 		st.....wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww.....ts
-		sw.....dd.........wr....yyr....w.........dd.....ws
-		st.....wwf.i......w............w......if.ww.....ts
-		swwwwwwww..l......w.....yy.....w......l..wwwwwwwws
-		...wwwwwwwf.......w............w......f.wwwwwww...
+		sw.....dd.....1111wr....yyr....w1111.....dd.....ws
+		st.....wwf.i..1111w............w1111..if.ww.....ts
+		swwwwwwww..l..2222w.....yy.....w2222..l..wwwwwwwws
+		...wwwwwwwf...2222w............w2222..f.wwwwwww...
 		...wwm.m.w...o....w............w....o...wm.m.ww...
 		s..ww....wwwewwwwwwwwwww0dwwwwwwwwwwwewww....ww...
-		s..ww...l1h.....b.w666666.+++++wc......h3...lww..s
-		s..dd....e.......zw............wz.......e....dd..s
-		s.www....wc.....b.w............wc.....b.w....www.s
-		swwwwwwwwwz......z1l..........l3z......zwwwwwwwwws
-		s.wwr....wc.....b.w2wwwwwewwww2wc.....b.wr....ww.s
+		s..ww...l.h.....b.w666666.+++++wc......h....lww..s
+		s..dd....e.......zw555555.33333wz.......e....dd..s
+		s.www....wc.....b.w555555......wc.....b.w....www.s
+		swwwwwwwwwz......z.l..........l.z......zwwwwwwwwws
+		s.wwr....wc.....b.w.wwwwwewwww.wc.....b.wr....ww.s
 		stww.....wl......lvl..........lvl......lw.....wwts
 		swww.....wc.......e............e......b.w.....wwws
 		swww.....d........w............w........d.....wwws
-		s.ww.....wc.....b.w55.55...55..wc.....b.w.....ww.s
-		stwwr....w........w6..6....6...w........wr....wwts
+		s.ww.....wc.....b.w............wc.....b.w.....ww.s
+		stwwr....w........w............w........wr....wwts
 		swww.....wz......zw............wz......zw.....wwws
-		swww.....wc.....b.w44.44...44..wc.....b.w.....wwws
+		swww.....wc.....b.w............wc.....b.w.....wwws
 		s.ww.....wl......lvl..........lvl......lw.....ww.s
 		stww.....wc.....b.wvwewwwewwwwwwc.....b.w.....wwts
 		swwwwwwwwwz......zva..vli..ggggvz......zwwwwwwwwws
 		s.www....wc.....m.wa..w8888ggggwc.....b.w....www.s
-		s..dd....e........wa..w8888ggggw........e....dd..s
-		s..wwl...1h.......wa.lwo...ggggwc......h3l...ww..s
+		s..dd....e........wa..w88888888w........e....dd..s
+		s..wwl....h.......wa.lwo8888888wc......h.l...ww..s
 		s..wwn.n.wwwewwwwwwwwwwwwdwwwwwwwwwwwewwwn.n.ww..s
-		...ww....wf..o...7wr......r....w....o.f.w....ww...
-		...wwwwwww.......7w.....yy.....w........wwwwwww...
-		swwwwwwwwf.l.....7w............w......lf.wwwwwwwws
-		st.....ww..i......w.....yy.....w......i..ww.....ts
-		sw.....dd.........w............w.........dd.....ws
+		...ww....wf..o...7wr......r....w4444o.f.w....ww...
+		...wwwwwww....2227w.....yy.....w2222....wwwwwww...
+		swwwwwwwwf.l..2227w............w2222..lf.wwwwwwwws
+		st.....ww..i..1111w.....yy.....w1111..i..ww.....ts
+		sw.....dd.....1111w............w1111.....dd.....ws
 		st.....wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww.....ts
 		swi....wwwwwdwwwwp...p...p...p...wwwwdwwwww....iws
 		st.i...w........i................i........w...i.ts
@@ -422,11 +423,31 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 			</li>
 			<li>
 				<key>+</key>
-				<value>GlitterworldMedicine</value>
+				<value>HerbalMedicine</value>
 			</li>
 			<li>
 				<key>g</key>
 				<value>Gold</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>WoodLog</value>
+			</li>
+			<li>
+				<key>2</key>
+				<value>Steel</value>
+			</li>
+			<li>
+				<key>3</key>
+				<value>Medicine</value>
+			</li>
+			<li>
+				<key>4</key>
+				<value>Plasteel</value>
+			</li>
+			<li>
+				<key>5</key>
+				<value>MealSimple</value>
 			</li>
 		</itemLegend>
 		<itemSpawnChance>65</itemSpawnChance>

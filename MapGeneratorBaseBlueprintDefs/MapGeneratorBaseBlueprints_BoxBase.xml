@@ -387,14 +387,14 @@
 		..s......wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww......s..
 		..sw.....dd......tttw............wttt......dd.....ws..
 		..s......wwf.i...uuuw............wuuu...if.ww......s..
-		..swwwwwwww..l...y.tw............wtz....l..wwwwwwwws..
+		..swwwwwwww..l...yztw............wtzy...l..wwwwwwwws..
 		.....wwwwwwwf....uuuw............wuuu...f.wwwwwww.....
 		.....wwm.m.w.....tttw............wttt.....wm.m.ww.....
 		..s..ww....wwwewwwwwwwwwww.dwwwwwwwwwwwewww....ww.....
-		..s..ww...l.h.....b.w........3333wc......h....lww..s..
+		..s..ww...l.h.....b.w456666..3333wc......h....lww..s..
 		..s..dd....e........w777777..0000w........e....dd..s..
-		..s.www....wc.....b.w45666...11..wc.....b.w....www.s..
-		..swwwwwwwww.........45666...99...........wwwwwwwwws..
+		..s.www....wc.....b.w456666..1111wc.....b.w....www.s..
+		..swwwwwwwww.........456666..999+.........wwwwwwwwws..
 		..s.ww.....wc.....b.w.wwwwwewwww.wc.....b.w.....ww.s..
 		..s.ww.....wl......l.l..........l.l......lw.....ww.s..
 		..swww.....wc.......e............e......b.w.....wwws..
@@ -405,16 +405,16 @@
 		..swww.....wc.....b.w............wc.....b.w.....wwws..
 		..s.ww.....wl......l.l..........l.l......lw.....ww.s..
 		..s.ww.....wc.....b.w.wewwwewwwwwwc.....b.w.....ww.s..
-		..swwwwwwwww.............g..88888.........wwwwwwwwws..
-		..s.www....wc.....m.w...w........wc.....b.w....www.s..
+		..swwwwwwwww.............gg.88888.........wwwwwwwwws..
+		..s.www....wc.....m.w...wgg.88888wc.....b.w....www.s..
 		..s..dd....e........w...w...aaaaaw........e....dd..s..
 		..s..wwl....h.......w..lw........wc......h.l...ww..s..
 		..s..wwn.n.wwwewwwwwwwwwwwwdwwwwwwwwwwwewwwn.n.ww..s..
 		.....ww....wf....tttw............wttt...f.w....ww.....
 		.....wwwwwww.....uuuw............wuuu.....wwwwwww.....
-		..swwwwwwwwf.l...y.tw............wtx....lf.wwwwwwwws..
+		..swwwwwwwwf.l...yztw............wtxy...lf.wwwwwwwws..
 		..s......ww..i...uuuw............wuuu...i..ww......s..
-		..sw.....dd......tttw............wttt......dd.....ws..
+		..sw.....dd......tttw............wttttt....dd.....ws..
 		..s......wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww......s..
 		..swi....wwwwwdwwwwp...p...p...p...wwwwdwwwww....iws..
 		..s..i...w........i................i........w...i..s..
@@ -513,7 +513,7 @@
 			</li>
 
 		</itemLegend>
-		<itemSpawnChance>33</itemSpawnChance>
+		<itemSpawnChance>50</itemSpawnChance>
 
 	</MapGenerator.MapGeneratorBaseBlueprintDef>
 
@@ -523,6 +523,7 @@
 		<defName>BoxBase1_B</defName>
 		<createdBy>Box</createdBy>
 		<techLevelRequired>Industrial</techLevelRequired>
+		<techLevelMax>Industrial</techLevelMax>
 		<chance>12</chance>
 		<size>(54, 44)</size>
 		<canHaveHoles>false</canHaveHoles>
@@ -908,13 +909,13 @@
 		..sw.....dd.....ttttw............wtttt.....dd.....ws..
 		..s......wwf.i..uuuuw............wuuuu..if.ww......s..
 		..swwwwwwww..l..yzutw............wtuzx..l..wwwwwwwws..
-		.....wwwwwwwf...uuuuw............wuuuu..f.wwwwwww.....
+		.....wwwwwwwf...yuuuw............wuuuv..f.wwwwwww.....
 		.....wwm.m.w....ttttw............wtttt....wm.m.ww.....
 		..s..ww....wwwewwwwwwwwwww.dwwwwwwwwwwwewww....ww.....
-		..s..ww...l.h.....b.w77777...3333wc......h....lww..s..
-		..s..dd....e........w77777...0000w........e....dd..s..
-		..s.www....wc.....b.w45666...1112wc.....b.w....www.s..
-		..swwwwwwwww.........45666...999+.........wwwwwwwwws..
+		..s..ww...l.h.....b.w777776.33333wc......h....lww..s..
+		..s..dd....e........w777776.00000w........e....dd..s..
+		..s.www....wc.....b.w456666.11112wc.....b.w....www.s..
+		..swwwwwwwww.........456666.9999+.........wwwwwwwwws..
 		..s.ww.....wc.....b.w.wwwwwewwww.wc.....b.w.....ww.s..
 		..s.ww.....wl......l.l..........l.l......lw.....ww.s..
 		..swww.....wc.......e............e......b.w.....wwws..
@@ -933,7 +934,7 @@
 		.....ww....wf...ttttw............wtttt..f.w....ww.....
 		.....wwwwwww....uuuuw............wuuuu....wwwwwww.....
 		..swwwwwwwwf.l..xzutw............wtuzy..lf.wwwwwwwws..
-		..s......ww..i..uuuuw............wuuuu..i..ww......s..
+		..s......ww..i..xuuuw............wuuuy..i..ww......s..
 		..sw.....dd.....ttttw............wtttt.....dd.....ws..
 		..s......wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww......s..
 		..swi....wwwwwdwwwwp...p...p...p...wwwwdwwwww....iws..
@@ -1032,7 +1033,7 @@
 				<value>Chemfuel</value>
 			</li>
 		</itemLegend>
-		<itemSpawnChance>45</itemSpawnChance>
+		<itemSpawnChance>50</itemSpawnChance>
 
 		<pawnData>
 		......................................................
@@ -1488,15 +1489,15 @@
 		..swi....wwwwwdwwww................wwwwdwwwww....iws..
 		..s......wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww......s..
 		..sw.....dd....tttttw............wttttt....dd.....ws..
-		..s......wwf.i.uuuuuw............wuuuuu.if.ww......s..
+		..s......wwf.i.yuuuuw............wuuuux.if.ww......s..
 		..swwwwwwww..l.yxzztw............wtzzxy.l..wwwwwwwws..
 		.....wwwwwwwf..vuuuuw............wuuuuv.f.wwwwwww.....
 		.....wwm.m.w...tttttw............wttttt...wm.m.ww.....
 		..s..ww....wwwewwwwwwwwwww.dwwwwwwwwwwwewww....ww.....
-		..s..ww...l.h.....b.w777777.33333wc......h....lww..s..
-		..s..dd....e........w777777.00000w........e....dd..s..
-		..s.www....wc.....b.w455666.11122wc.....b.w....www.s..
-		..swwwwwwwww.........456666.999++.........wwwwwwwwws..
+		..s..ww...l.h.....b.w456666.11+++wc......h....lww..s..
+		..s..dd....e........w456666.99999w........e....dd..s..
+		..s.www....wc.....b.w455666.22333wc.....b.w....www.s..
+		..swwwwwwwww.........456666.77777.........wwwwwwwwws..
 		..s.ww.....wc.....b.w.wwwwwewwww.wc.....b.w.....ww.s..
 		..s.ww.....wl......l.l..........l.l......lw.....ww.s..
 		..swww.....wc.......e............e......b.w.....wwws..
@@ -1507,13 +1508,13 @@
 		..swww.....wc.....b.w............wc.....b.w.....wwws..
 		..s.ww.....wl......l.l..........l.l......lw.....ww.s..
 		..s.ww.....wc.....b.w.wewwwewwwwwwc.....b.w.....ww.s..
-		..swwwwwwwww.............gg.88888.........wwwwwwwwws..
-		..s.www....wc.....m.w...wgg.88888wc.....b.w....www.s..
-		..s..dd....e........w...wgg.aaaaaw........e....dd..s..
-		..s..wwl....h.......w..lwqq.aaaaawc......h.l...ww..s..
+		..swwwwwwwww.............gg.ggggg.........wwwwwwwwws..
+		..s.www....wc.....m.w...wgg.gggggwc.....b.w....www.s..
+		..s..dd....e........w...wrr.qqqqqw........e....dd..s..
+		..s..wwl....h.......w..lwrr.qqqqqwc......h.l...ww..s..
 		..s..wwn.n.wwwewwwwwwwwwwwwdwwwwwwwwwwwewwwn.n.ww..s..
 		.....ww....wf..tttttw............wttttt.f.w....ww.....
-		.....wwwwwww...uuuuuw............wuuuuu...wwwwwww.....
+		.....wwwwwww...vuuuuw............wuuuux...wwwwwww.....
 		..swwwwwwwwf.l.yxzztw............wtzzxy.lf.wwwwwwwws..
 		..s......ww..i.vuuuuw............wuuuuv.i..ww......s..
 		..sw.....dd....tttttw............wttttt....dd.....ws..
@@ -1532,15 +1533,15 @@
 			</li>
 			<li>
 				<key>1</key>
-				<value>Hay</value>
+				<value>GoJuice</value>
 			</li>
 			<li>
 				<key>2</key>
-				<value>RawHops</value>
+				<value>WakeUp</value>
 			</li>
 			<li>
 				<key>3</key>
-				<value>RawPotatoes</value>
+				<value>Penoxycyline</value>
 
 			</li>
 			<li>
@@ -1557,7 +1558,7 @@
 			</li>
 			<li>
 				<key>7</key>
-				<value>Kibble</value>
+				<value>SmokeleafJoint</value>
 			</li>
 
 			<li>
@@ -1587,7 +1588,7 @@
 			</li>
 			<li>
 				<key>r</key>
-				<value>Hyperweave</value>
+				<value>ElephantTusk</value>
 			</li>
 			<li>
 				<key>t</key>
@@ -1692,7 +1693,7 @@
 	<MapGenerator.MapGeneratorBaseBlueprintDef>
 		<defName>BoxBase1_D_Goldfortress</defName>
 		<techLevelRequired>Spacer</techLevelRequired>
-		<chance>5</chance>
+		<chance>8</chance>
 		<size>(54, 44)</size>
 		<canHaveHoles>false</canHaveHoles>
 		<createTrigger>true</createTrigger>
@@ -2089,34 +2090,34 @@
 		..s......wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww......s..
 		..sw.....dd....tttttw............wttttt....dd.....ws..
 		..s......wwf.i.uuuuuw............wuuuuu.if.ww......s..
-		..swwwwwwww..l.yxzztw............wtzzvy.l..wwwwwwwws..
-		.....wwwwwwwf..vuuuuw............wuuuuv.f.wwwwwww.....
+		..swwwwwwww..l.yxxztw............wvvvvv.l..wwwwwwwws..
+		.....wwwwwwwf..yyyyyw............wvvvvv.f.wwwwwww.....
 		.....wwm.m.w...tttttw............wttttt...wm.m.ww.....
 		..s..ww....wwwewwwwwwwwwww.dwwwwwwwwwwwewww....ww.....
-		..s..ww...l.h.....b.w457777.33333wc......h....lww..s..
-		..s..dd....e........w457777.00000w........e....dd..s..
-		..s.www....wc.....b.w456666.11112wc.....b.w....www.s..
-		..swwwwwwwww.........456666.999++.........wwwwwwwwws..
-		..s.ww.....wc.....b.w.wwwwwewwww.wc.....b.w.....ww.s..
-		..s.ww.....wl......l.l..........l.l......lw.....ww.s..
-		..swww.....wc.......e............e......b.w.....wwws..
+		..s..ww...l.h.....b.w888886611333wc......h....lww..s..
+		..s..dd....e........w888886600000w........e....dd..s..
+		..s.www8888wc.....b.w5555555222aawc.....b.w7777www.s..
+		..swwwwwwwww.........4444444999++.........wwwwwwwwws..
+		..s.ww....8wc.....b.w.wwwwwewwww.wc.....b.w8....ww.s..
+		..s.ww....8wl......l.l..........l.l......lw8....ww.s..
+		..swww....8wc.......e............e......b.w8....wwws..
 		..swww.....d........w............w........d.....wwws..
-		..s.ww.....wc.....b.w............wc.....b.w.....ww.s..
-		..s.ww.....w........w............w........w.....ww.s..
-		..swww.....w........w............w........w.....wwws..
-		..swww.....wc.....b.w............wc.....b.w.....wwws..
-		..s.ww.....wl......l.l..........l.l......lw.....ww.s..
-		..s.ww.....wc.....b.w.wewwwewwwwwwc.....b.w.....ww.s..
-		..swwwwwwwww.............gg.88888.........wwwwwwwwws..
-		..s.www....wc.....m.w...wgg.88888wc.....b.w....www.s..
-		..s..dd....e........w...wgg.aaaaaw........e....dd..s..
-		..s..wwl....h.......w..lwrr.qqqqqwc......h.l...ww..s..
+		..s.ww....8wc.....b.w............wc.....b.w8....ww.s..
+		..s.ww....8w........w............w........w8....ww.s..
+		..swww....8w........w............w........w8....wwws..
+		..swww....8wc.....b.w............wc.....b.w8....wwws..
+		..s.ww....8wl......l.l..........l.l......lw8....ww.s..
+		..s.ww....8wc.....b.w.wewwwewwwwwwc.....b.w8....ww.s..
+		..swwwwwwwww.............77777777.........wwwwwwwwws..
+		..s.www8888wc.....m.w...w77777777wc.....b.w7777www.s..
+		..s..dd....e........w...wrrrrrrrrw........e....dd..s..
+		..s..wwl....h.......w..lwggqqqqqqwc......h.l...ww..s..
 		..s..wwn.n.wwwewwwwwwwwwwwwdwwwwwwwwwwwewwwn.n.ww..s..
 		.....ww....wf..tttttw............wttttt.f.w....ww.....
 		.....wwwwwww...uuuuuw............wuuuuu...wwwwwww.....
-		..swwwwwwwwf.l.yvzztw............wtzzxy.lf.wwwwwwwws..
-		..s......ww..i.vuuuuw............wuuuuv.i..ww......s..
-		..sw.....dd....tttttw............wttttt....dd.....ws..
+		..swwwwwwwwf.l.yyyyyw............wxxxxx.lf.wwwwwwwws..
+		..s......ww..i.vuuuuw............wxxxxx.i..ww......s..
+		..sw.....dd....zzzzzw............wzzzzz....dd.....ws..
 		..s......wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww......s..
 		..swi....wwwwwdwwwwp...p...p...p...wwwwdwwwww....iws..
 		..s..i...w........i................i........w...i..s..
@@ -2128,11 +2129,11 @@
 		<itemLegend>
 			<li>
 				<key>0</key>
-				<value>RawRice</value>
+				<value>EggChickenUnfertilized</value>
 			</li>
 			<li>
 				<key>1</key>
-				<value>Hay</value>
+				<value>GoJuice</value>
 			</li>
 			<li>
 				<key>2</key>
@@ -2140,7 +2141,7 @@
 			</li>
 			<li>
 				<key>3</key>
-				<value>RawPotatoes</value>
+				<value>Penoxycyline</value>
 
 			</li>
 			<li>
@@ -2149,41 +2150,41 @@
 			</li>
 			<li>
 				<key>5</key>
-				<value>MealFine</value>
+				<value>MealLavish</value>
 			</li>
 			<li>
 				<key>6</key>
-				<value>MealSimple</value>
+				<value>Milk</value>
 			</li>
 			<li>
 				<key>7</key>
-				<value>Kibble</value>
+				<value>SmokeleafJoint</value>
 			</li>
 
 			<li>
 				<key>8</key>
-				<value>Silver</value>
+				<value>Beer</value>
 			</li>
 			<li>
 				<key>9</key>
-				<value>HerbalMedicine</value>
+				<value>Medicine</value>
 			</li>
 			<li>
 				<key>+</key>
-				<value>Medicine</value>
+				<value>GlitterworldMedicine</value>
 			</li>
 
 			<li>
 				<key>g</key>
-				<value>Gold</value>
+				<value>ThrumboHorn</value>
 			</li>
 			<li>
 				<key>a</key>
-				<value>Cloth</value>
+				<value>Yayo</value>
 			</li>
 			<li>
 				<key>q</key>
-				<value>Synthread</value>
+				<value>ElephantTusk</value>
 			</li>
 			<li>
 				<key>r</key>
@@ -2278,6 +2279,22 @@
 			<li>
 				<key>x</key>
 				<value>MercenaryElite</value>
+			</li>
+			<li>
+				<key>y</key>
+				<value>MercenarySlasher</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>MercenaryElite</value>
+			</li>
+			<li>
+				<key>2</key>
+				<value>MercenarySniper</value>
+			</li>
+			<li>
+				<key>3</key>
+				<value>MercenarySniper</value>
 			</li>
 			<li>
 				<key>4</key>

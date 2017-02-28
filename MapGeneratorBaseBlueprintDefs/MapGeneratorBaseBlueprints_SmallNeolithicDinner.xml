@@ -163,6 +163,7 @@
 	
 	<MapGenerator.MapGeneratorBaseBlueprintDef ParentName="BaseDinnerNeolithicSmall">
 		<defName>SmallNeolithicDinnerBase_w_Pawns</defName>
+		<createdBy>Amuzet</createdBy>
 		<chance>10</chance>
 		<createTrigger>true</createTrigger>
 		<pawnData>

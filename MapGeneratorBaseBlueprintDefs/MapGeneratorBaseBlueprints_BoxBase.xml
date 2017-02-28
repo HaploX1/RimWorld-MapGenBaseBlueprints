@@ -1105,6 +1105,7 @@
 
 	<MapGenerator.MapGeneratorBaseBlueprintDef>
 		<defName>BoxBase1_C</defName>
+		<createdBy>Box</createdBy>
 		<techLevelRequired>Spacer</techLevelRequired>
 		<chance>30</chance>
 		<size>(54, 44)</size>
@@ -1692,6 +1693,7 @@
 
 	<MapGenerator.MapGeneratorBaseBlueprintDef>
 		<defName>BoxBase1_D_Goldfortress</defName>
+		<createdBy>Box</createdBy>
 		<techLevelRequired>Spacer</techLevelRequired>
 		<chance>8</chance>
 		<size>(54, 44)</size>

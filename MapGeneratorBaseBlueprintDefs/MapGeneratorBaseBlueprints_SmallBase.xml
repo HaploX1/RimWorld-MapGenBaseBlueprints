@@ -173,6 +173,7 @@
 
 	<MapGenerator.MapGeneratorBaseBlueprintDef ParentName="MiniBase1Base" Name="MiniBase2Base">
 		<defName>MiniBase2_wo_holes</defName>
+		<createdBy>Haplo</createdBy>
 		<chance>15</chance>
 		<canHaveHoles>false</canHaveHoles>
 		<createTrigger>true</createTrigger>
@@ -237,6 +238,7 @@
 
 	<MapGenerator.MapGeneratorBaseBlueprintDef ParentName="MiniBase2Base">
 		<defName>MiniBase3_wo_holes_w_mercenary</defName>
+		<createdBy>Haplo</createdBy>
 		<chance>10</chance>
 		<canHaveHoles>false</canHaveHoles>
 		<createTrigger>true</createTrigger>
